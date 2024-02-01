@@ -1,0 +1,46 @@
+@media (max-width: 400px) {
+  * {
+    font-size: 50%;
+  }
+  .header-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon-2-2 {
+    left: 30rem;
+  }
+  .div-1 :first-child {
+    width: 50rem;
+  }
+  .div-1 :nth-child(2) {
+    width: 60rem;
+  }
+
+  .img-sect-2 {
+    opacity: 0;
+  }
+  .ion1,
+  .ion2,
+  .ion3,
+  .ion4 {
+    opacity: 0;
+  }
+  .big-div-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-2-nav2 {
+    width: 50rem;
+  }
+  .sect-3-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rem;
+  }
+  .accInfo {
+    width: 60rem;
+  }
+  .tgPhone {
+    opacity: 0;
+  }
+}

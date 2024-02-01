@@ -1,0 +1,508 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s;
+}
+body {
+  background-color: #000b1d;
+  font-family: sans-serif;
+}
+header {
+  display: flex;
+}
+.icon {
+  height: 50px;
+  margin-top: 4.5rem;
+  margin-left: 10rem;
+}
+.account {
+  display: flex;
+  gap: 2rem;
+  margin-left: 50rem;
+  margin-top: 5.2rem;
+}
+
+.account :last-child {
+  background-color: rgb(1, 53, 211);
+  padding: 8px 21px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.account :first-child {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+.header-div {
+  display: flex;
+}
+.div-1 {
+  margin-left: 10rem;
+}
+.div-1 :first-child {
+  color: white;
+  font-size: 45px;
+  max-width: 30rem;
+  line-height: 1.5;
+  margin-top: 4rem;
+}
+.div-1 :nth-child(2) {
+  font-size: 1.5rem;
+  color: #a2a2a2;
+  max-width: 30rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.div-2 {
+  position: relative;
+}
+.div-1 :last-child {
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(1, 53, 211);
+  padding: 12px 30px;
+  font-weight: 700;
+  font-size: 1.3rem;
+  border-radius: 8px;
+}
+.icon-2 {
+  height: 35rem;
+  position: relative;
+  margin-left: 15rem;
+  z-index: 9;
+  margin-top: 5rem;
+}
+
+.icon-2-2 {
+  position: absolute;
+  height: 22rem;
+  right: 2rem;
+  top: 8.2rem;
+}
+.name {
+  display: flex;
+  color: white;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.463);
+  border-radius: 25px;
+  padding: 5px 20px;
+
+  margin-right: 600px;
+  position: absolute;
+  top: 25rem;
+  left: 15rem;
+
+  z-index: 10;
+}
+.name :last-child {
+  height: 3rem;
+}
+.name :first-child {
+  font-size: 1.5rem;
+}
+/* ///////////////////////////////// */
+/*/////SECTION 2 /////*/
+.section-2-text {
+  text-align: center;
+}
+.section-2-text :first-child {
+  color: #82f9f9;
+  font-size: 32px;
+  font-weight: 700;
+}
+.section-2-text :last-child {
+  color: white;
+  font-size: 22.4px;
+  font-weight: bold;
+  line-height: 2;
+}
+.sect-2-nav {
+  color: white;
+  margin-left: 20rem;
+  margin-top: 7.5rem;
+  margin-bottom: 7rem;
+}
+.sect2-text-1 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.big-div-2,
+.big-div-1 {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.sect2-text-2 {
+  font-weight: 200;
+  font-size: 1rem;
+  margin-top: 20px;
+  max-width: 25rem;
+  line-height: 1.5;
+}
+.sect-2-nav-1,
+.sect-2-nav-2,
+.sect-2-nav-3,
+.sect-2-nav-4 {
+  background-color: #0d182a;
+  padding: 1.8rem 2.2rem 1.8rem 2.2rem;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px -5px #162132;
+}
+.sect-2-nav-2 {
+  background-color: #0d182a;
+}
+.ion1,
+.ion2,
+.ion3,
+.ion4 {
+  position: absolute;
+  background-color: blue;
+  padding: 1rem;
+  box-shadow: 0 0 3rem blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  bottom: 8.5rem;
+  left: -1.5rem;
+}
+
+.section-2-nav2 div :first-child {
+  font-size: 32px;
+  font-weight: bold;
+}
+.section-2-nav2 div :nth-child(2) {
+  font-weight: bold;
+
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+.section-2-nav2 div p span {
+  color: blue;
+}
+.section-2-nav2 div p {
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 32px;
+  line-height: 1.2;
+}
+.paragraph {
+  background-color: blue;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-right: 30rem;
+  border-radius: 20px;
+  line-height: 1.3;
+  margin-top: 1rem;
+}
+.section-2-nav2 {
+  margin-left: 15rem;
+  color: white;
+  position: relative;
+  border: 4px solid blue;
+  border-radius: 40px;
+  padding: 2rem;
+  margin-right: 15rem;
+}
+.img-sect-2 {
+  height: 300px;
+  position: absolute;
+  top: 88rem;
+  right: 20rem;
+}
+.car {
+  transform: rotateY(-180deg);
+  height: 600px;
+}
+.car-text {
+  color: rgb(54, 188, 222);
+  font-size: 2rem;
+  max-width: 25rem;
+  text-align: center;
+  margin-left: 35rem;
+  line-height: 1.5;
+  margin-top: 6rem;
+}
+.sect-3-div {
+  display: flex;
+}
+.sect-3-divp1 {
+  color: white;
+  max-width: 27rem;
+  text-align: center;
+  line-height: 2;
+  font-weight: bold;
+}
+.sect-3-divp2 {
+  color: grey;
+  margin-top: 2rem;
+  line-height: 2;
+  font-size: 15px;
+  max-width: 30rem;
+}
+.sect-3-big {
+  display: block;
+  margin-top: 7rem;
+}
+.sect-3-divp1 span {
+  color: rgb(54, 188, 222);
+}
+.sect3-tarif {
+  color: white;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 19rem;
+  margin-left: 19rem;
+  gap: 2rem;
+  margin-top: 10rem;
+  z-index: 999;
+}
+.sect3-tarif div {
+  background-color: #020c30;
+  position: relative;
+  line-height: 1.5;
+  padding: 2rem;
+  z-index: 99;
+}
+.sect3-tarif div ul {
+  list-style: none;
+}
+.vd25 {
+  margin-top: 7rem;
+  font-size: 21px;
+  font-weight: 600;
+  box-shadow: 5px -5px #162132;
+  border-radius: 20px;
+  color: blue;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.pul1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5rem;
+}
+.txt25 {
+  margin-top: 2rem;
+  font-size: 21px;
+  font-weight: 600;
+  box-shadow: 5px -5px #162132;
+  border-radius: 20px;
+  color: blue;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.pul2,
+.pul3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.sect3-a1 {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  font-weight: 600;
+  font-size: 1.5rem;
+  width: 100%;
+
+  position: absolute;
+  bottom: -4rem;
+  text-align: center;
+  left: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: inset -4px 4px 4px #142540;
+  overflow: hidden;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.withdraval {
+  text-decoration: line-through;
+  color: #616161;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+.tur {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, blue, rgb(3, 5, 37));
+  position: absolute;
+  top: -4rem;
+  box-shadow: inset -4px 4px 4px #0f2a4f;
+  left: 0;
+  right: 0;
+  padding: 1.5rem 5.2rem;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.sect3-tarif div ul li span {
+  color: blue;
+}
+.cashback {
+  margin-top: 20rem;
+}
+.cashback img {
+  width: 8rem;
+  opacity: 0.1;
+  margin-left: 10rem;
+}
+.ahref {
+  width: 17rem;
+  text-align: center;
+  border: 4px solid blue;
+  padding: 1rem;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 5rem;
+}
+.kriptocash {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.ahref:hover {
+  background-color: blue;
+  transition: all 0.5s;
+}
+.malumot {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(11, 169, 237);
+  margin-top: 4rem;
+}
+.malumot2 {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+}
+.accInfo {
+  display: flex;
+  flex-direction: column;
+}
+.inp {
+  max-width: 17.8rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+.tasdiqla {
+  color: white;
+  background-color: blue;
+  font-size: 1.6rem;
+  font-weight: 800;
+  max-width: 15rem;
+  border-radius: 12px;
+  margin-top: 0.5rem;
+  padding: 0.2rem 2rem;
+  text-align: center;
+}
+.tasdiqla:hover {
+  transform: scale(1.08);
+  transition: all 0.7s;
+}
+.enterAcc {
+  margin-left: 35rem;
+  margin-top: 3rem;
+  position: relative;
+}
+.accInfo {
+  border: 2px solid blue;
+  padding: 1rem 2rem;
+  max-width: 20rem;
+  border-radius: 20px;
+  position: relative;
+}
+.blue {
+  background-color: blue;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -2rem;
+  left: -2rem;
+  filter: blur(40px);
+}
+.telgram {
+  margin-top: 20rem;
+  margin-left: 10rem;
+  border: 6px solid blue;
+  box-shadow: 0 0 20px blue;
+  max-width: 70rem;
+  padding: 3rem;
+  border-radius: 30px;
+  position: relative;
+}
+.telgram h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  max-width: 40rem;
+  line-height: 1.5;
+}
+.aimg img {
+  width: fit-content;
+}
+.aimg a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+.aimg {
+  display: flex;
+  background-color: blue;
+
+  width: 25rem;
+  border-radius: 20px;
+  padding: 11px;
+  margin-top: 1rem;
+}
+.telgram p {
+  color: white;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+.tgPhone {
+  height: 35rem;
+  position: absolute;
+  left: 55rem;
+  margin-top: 7.8rem;
+  z-index: 9999;
+}
+.telg,
+.insta,
+.tiktok,
+.youtube {
+  height: 2rem;
+  margin-left: 1rem;
+}
+.telg {
+  margin-left: 10rem;
+}
+.first-footeer {
+  margin-left: 20rem;
+  margin-top: 8rem;
+}
+footer p {
+  color: grey;
+  margin-left: 30rem;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  margin-bottom: 5rem;
+}
